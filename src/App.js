@@ -8,6 +8,13 @@ function App() {
         <p>
           letargico.cl
         </p>
+        <a
+          className="App-link"
+          href="https://www.linkedin.com/in/pancho-montoya-91543840/"
+          target="_blank"
+        >
+          by PM
+        </a>
       </header>
     </div>
   );

@@ -22,7 +22,9 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ced2d3;
+  font-size: small;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @keyframes App-logo-spin {
