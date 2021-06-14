@@ -1,0 +1,14 @@
+
+$color-vinculos: rgb(255, 255, 255);
+
+.footer-simple{
+    a {
+        &:hover { color: $color-vinculos; font-size:20px;}
+        &:active {color: $color-vinculos;}
+        &:visited {color: $color-vinculos;}
+        &:link {color: $color-vinculos;}      
+        text-decoration: none; 
+       
+    }
+    text-align: center;
+}

@@ -1,7 +1,9 @@
 export const Home = () => {
     return (
-       <h1>Letargico.cl</h1>
+        <div className="titulo">
+            <h1>Letargico.cl</h1>
+       </div>
     )
 }
 
-export default Home
+export default Home 
