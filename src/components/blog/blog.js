@@ -21,21 +21,21 @@ export const UserInfo = (props) => {
 
 export const Post = () => {
     return (
-        <div className="stock-container">
+        <div className="post">
           {data.map((data) => {
             return (
-              <div>
-                <UserInfo user= {data.author} />
-                  <div className="Comment-text">
-                    <h2>{data.title}</h2>
-                    <div className="Comment-date">
-                      {formatDate(data.date)}
-                    </div>
-                    {data.text}
-                    </div>
-                  <br />
-              </div>
-             
+              <section>
+                <div className="post-titulo">
+                  <h2>{data.title}</h2>
+                </div>
+                <div className="post-fecha">
+                  {formatDate(data.date)}
+                </div>
+                <div className="post-texto">
+                  {data.text}
+                </div>
+                <br />
+              </section>
             );
           })}
         </div>
