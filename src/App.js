@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles/App.scss'
 import Post from './components/blog/blog'
+import CrearPost from './components/blog/crearPost/crearPost'
 import About from './components/about/about'
 import Contacto from './components/contacto/contacto'
 import {useRoutes} from 'hookrouter'
@@ -14,7 +15,8 @@ const routes = {
   '/': () => <Home />,
   '/blog': () => <Post />,
   '/contacto': () => <Contacto/>,
-  '/about' : () => <About />
+  '/about' : () => <About />,
+  '/post': () => <CrearPost />
 }
 
 const App = () => {

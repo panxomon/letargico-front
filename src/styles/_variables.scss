@@ -2,10 +2,12 @@
 
 
 body{
-    // background: linear-gradient(180deg, #17d3a4,#d4b2c9);
-    background-image: url("../imagenes/header.JPG");
+    
+    background-image: url("../imagenes/main/main-eye.png");
+    background-color: #1dad89;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
     height: 100vh;
     overflow: hidden;
     width: 100vw;

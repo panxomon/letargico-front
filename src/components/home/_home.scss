@@ -6,13 +6,10 @@ h1{
     font: 400 60px/1 "Playfair Display",serif;
 }
 
-.titulo{
-    text-align: center;
-
-    p{
-        color:$color-subtitulo;
-        font-size: 1.5em;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+.home{
+    background-image: url("../../imagenes/main/main-eye.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 

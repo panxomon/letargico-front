@@ -8,7 +8,7 @@ $color-vinculos: rgb(180, 119, 167);
         &:visited {color: $color-vinculos;}
         &:link {color: $color-vinculos;}      
         text-decoration: none; 
-       
+        bottom: 0em;
     }
     text-align: center;
 }

@@ -1,11 +1,16 @@
 
 import BotonNuevo from '../../atomicDesign/atoms/atoms.input'
 
-
-
 export const CrearPost = (props) => {
+
+    function test(e) {
+
+        console.log(e.target);
+        console.log(e.input.texto)
+      }
+
     return (
-        <section className="crear-post">
+        <section className="post">
             <p>Titulo del post</p>
             <input type="text" placeholder="nuevo articulo" />
             <br />
@@ -14,7 +19,10 @@ export const CrearPost = (props) => {
             <input type="text" placeholder="#nuevoHashTag" />
             <input type="button" value="Añadir" />
             <br />
-            <input type="button" value="Enviar" />
+
+            <BotonNuevo type="submit" texto={"presiona"}  onclick={e => test(e)}  />
+
+          
         </section>
     )
 }

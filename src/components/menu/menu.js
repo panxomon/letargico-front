@@ -15,7 +15,7 @@ export const Menu = () => {
           <a href="https://github.com/panxomon/letargico-front" rel = "noopener noreferrer" >Github </a>
           <a href="/blog">Blog </a>
           <a href="/contacto">Contacto </a>
-          <div class="effect"></div>
+          <div className="effect"></div>
         </div>
     )
 }
